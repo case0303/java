@@ -24,7 +24,7 @@ public class IntTypeExample1 {
 		 * - int형보다 작은 데이터 타입의 연산을 진행하는 경우 자동으로 int형으로 형 변환이 일어남
 		 */
 		
-		System.out.printf("%d, %d, %d, %d\n",a, b, c, d);
+		System.out.printf("%d\n, %d, %d, %d\n",a, b, c, d);
 
 	}
 

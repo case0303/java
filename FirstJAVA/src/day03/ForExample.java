@@ -33,6 +33,7 @@ public class ForExample {
 			System.out.println("합은 :"+sum);
 		int quiz = 0;
 		for(i=1; i<=100; i += 2) {
+			System.out.println(i);
 			quiz += i;
 		}
 		System.out.println("합은 :"+quiz);

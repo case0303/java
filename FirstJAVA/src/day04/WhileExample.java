@@ -38,7 +38,7 @@ public class WhileExample {
 		int i = 0;
 		Scanner scan = new Scanner(System.in);
 		
-//		while((i= scan.nextInt()) != 0) { //0일때
+//		while((i= scan.nextInt()) != 0) { //0이 아닐때
 //			System.out.println("i는 0이 아닙니다. ");
 //		}
 //		

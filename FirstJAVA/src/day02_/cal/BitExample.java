@@ -14,6 +14,8 @@ public class BitExample {
 		System.out.println( a | b );  //0b0000_0111
 		System.out.println( a ^ b );  //0b0000_0110
 		
+	
+		
 		byte c = (byte)170; // 0b1010_1010
 		byte d = 100;
 		System.out.println("원래 d :"+ d);

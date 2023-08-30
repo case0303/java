@@ -13,7 +13,9 @@ public class ArrayExample {
 		// 2. 타입[] 변수명 = { 데이터 };
 		// 3. 타입[] 변수명 = new 타입명[] {데이터};
 		
-		int[] number =  new int[10];
+		int[] number =  new int[2];
+		
+		
 		boolean[] win = {true, false, false, false, true};
 		String[] welcome = new String[] {
 				"테스트 1",
@@ -21,9 +23,9 @@ public class ArrayExample {
 				"테스트 3",
 		};
 				
-//		System.out.println(welcome[0]);
-//		System.out.println(welcome[1]);		
-//		System.out.println(welcome[2]);
+		System.out.println(welcome[0]);
+		System.out.println(welcome[1]);		
+		System.out.println(welcome[2]);
 		System.out.println("welcome 배열의 길이 : "+ welcome.length);
 		
 		for(int i = 0; i < welcome.length; i++) { //0 1 2
@@ -37,7 +39,7 @@ public class ArrayExample {
 		}
 		
 		
-		for(int i=0; i<win.length;i++) {
+		for(int i=0; i < win.length; i++) {
 			if(win[i]) {
 				System.out.println(i+1+"번째 전적 : 승리");
 			}else {

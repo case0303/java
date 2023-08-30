@@ -5,15 +5,15 @@ public class ArrayExample2 {
 	public static void main(String[] args) {
 		// 다차원 배열
 		// 1차원 배열 : int를 요소를 가지고 있는 배열
-		int[] number = {1, 2, 3, 4, 5};
+		int[] number = {1, 2, 3, 4, 99};
 		// 배열의 요소는 length - 1 번 방(저장공간)까지 있음.
 		System.out.println(number[number.length -1]);
 		//2차원 배열 : int[]배열을 요소로 가지고 있는 배열
 		// 첫번째 []은 내부 괄호 두번째 []는 내부괄호 안 내부 값
 		int[][] arr2 = {
-				{3,3,3},
-				{4,4,4},
-				{5,5,5},
+				{3,33,333},
+				{4,44,444},
+				{5,55,555},
 				number	//1차원 배열 
 		};
 		System.out.println("1 : " + arr2[1][2]);

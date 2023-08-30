@@ -15,12 +15,15 @@ public class Quiz230821 {
 		
 		//2 1-200까지 사이의 수 중에서 (2 또는 3의 배수)가 아닌 수들의 총 합을 구해보세요.
 		int sum = 0;
-		for(int i = 1; i<= 200; i++) {
-			if(!(i%2 == 0 || i%3 == 0)){
+		for(int i = 1; i<=200; i++) {
+			if(i%2 == 0 || i%3 == 0) {
+				
+			} else {
 				sum += i;
-			}
-			//if(i%2 != 0 && i%3 !=0) sum += i;
+			}	
 		}
+			//if(i%2 != 0 && i%3 !=0) sum += i;
+		
 		System.out.println("\n"+sum);
 		
 		
@@ -37,7 +40,7 @@ public class Quiz230821 {
 		
 		sum = 0;
 		for(int i = 1; i <= 10; i++) {
-			if(i!=1) System.out.print("+(");
+			if(i != 1) System.out.print("+(");
 			for(int j = 1; j <= i; j++) {
 				//소괄호 안에 더하기...
 				sum += j;

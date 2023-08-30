@@ -14,7 +14,8 @@ public class IfExample {
 		System.out.print(" 정수 입력 >>");
 		int num = scan.nextInt();
 		
-		if(num >= 10) System.out.println("입력한 정수는 10보다 크거나 같습니다.");
+		if(num >= 10)
+			System.out.println("입력한 정수는 10보다 크거나 같습니다.");
 		if(num < 0) {
 			System.out.println("입력한 정수"+num+"는 음수입니다.");
 		}

@@ -2,7 +2,7 @@ package day07;
 
 public class Pen {
 	// 멤버변수
-	public String color;
+	public String color ;
 	public int length;
 	int price;
 	/*

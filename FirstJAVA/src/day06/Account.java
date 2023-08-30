@@ -11,11 +11,11 @@ public class Account {
 	//  - 동사적 특성(기능) : 예금하다, 출금하다, 잔액조회, (이체)
 	
 	//변수선언(멤버변수-속성)
-	public String name;
-	public String accountNumber;
-	public String passwd;
-	public long balance;
-	public float interest;
+	public String name; // 계좌명
+	public String accountNumber; //계좌번호
+	public String passwd; // 비밀번호
+	public long balance; //잔액
+	public float interest; // 이자
 	
 	//메서드 선언(기능)
 	//예금하다

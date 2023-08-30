@@ -13,7 +13,7 @@ public class LogicalExample {
 		//숏컷 연산
 		int a=10,b=20;
 		System.out.println("+(a !=10)&&(++b == 21)의 결과:"+ ((a != 10)&&(++b == 21)));
-		System.out.println("s:"+a+"y:"+b);
+		System.out.println("a:"+a+"y:"+b);
 		
 		System.out.println("+(a == 10)&&(++b == 21)의 결과:"+ ((a == 10)&&(++b == 21)));
 		System.out.println("a:"+a+"b:"+b);

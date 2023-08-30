@@ -8,13 +8,20 @@ public class ConditionalExample {
 		
 		int a = 5 - (int)(Math.random()*10);
 		// 메인 메서드 값을 넘겼는지 확인 후 a 에 대입하는 구
-		if(args.length > 0) {
-			a = Integer.parseInt(args[0]);
-		}
+		
+//		if(args.length > 0) {
+//			a = Integer.parseInt(args[0]);
+//		}
 		int abs = (a >= 0) ? a : -a; //3항 연산
 		System.out.println(a+"의 절대값은 :"+abs);
 		
 		
+		
+		boolean x = false;
+
+		
+		
+		System.out.println(x ? "kkw" : "yyj");
 		
 	}
 

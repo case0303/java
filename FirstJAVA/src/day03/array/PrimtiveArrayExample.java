@@ -15,8 +15,7 @@ public class PrimtiveArrayExample {
 		
 		for (int i=0; i <s.length; i++) {//s.length의 길이
 			System.out.println(s[i] + "\t");
-		}
-		
+		}		
 
 	}
 

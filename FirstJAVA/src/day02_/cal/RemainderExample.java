@@ -28,7 +28,7 @@ public class RemainderExample {
 		
 		//나머지... : 1) 배수 관계 설명 2) 특정 범위의 값을 출력
 		
-		for(int i=1; i<=10;i++) {
+		for(int i=1; i<=10;++i) {
 			if(i%3 == 0) {
 				System.out.println(i);
 			}

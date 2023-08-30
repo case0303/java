@@ -19,10 +19,23 @@ public class ContinueExample {
 //				System.out.println(i);
 //		}
 		// continue를 사용하여 5의 배수만 출력하기
-		for(int i = 0; i < 100; i++) {
-			if(i%5 != 0 || i == 0) 
-				continue; //다음회차로 넘김
+//		for(int i = 0; i < 100; i++) {
+//			if(i%5 != 0 || i == 0) 
+//				continue; //다음회차로 넘김
+//				System.out.println(i);
+//		}
+		
+		for(int i = 1; i<100; i++) {
+			
+			if(i%3 != 0) {
 				System.out.println(i);
+				continue;
+			} else {
+				System.out.println("짝");
+			}
+			
 		}
+		
+		
 	}
 }

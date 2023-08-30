@@ -67,6 +67,10 @@ public class MethodExample {
 		int result = num1 + num2;
 		return result;
 	}
+	static int min(int num1, int num2) {  //반환값이 있는 경우, 매개변수는 있는 경우
+		int result = num1 - num2;
+		return result;
+	}
 	
 	static void showResult(int result) {  //반환값이 없는 경우, 매개변수는 있는 경우
 		System.out.println("덧셈 결과 : "+result);

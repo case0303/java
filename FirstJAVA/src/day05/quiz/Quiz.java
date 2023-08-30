@@ -29,6 +29,24 @@ public class Quiz {
 		//커피는 1500원을 받는다.
 		//커피의 개수를 입력받고 총 가격이 얼마인지 개선하여 출력하는
 		//프로그램을 만들어보세요.
+		
+		int sum = 0;
+		int price = 0;
+		System.out.print(">");
+		int count = scan.nextInt() ;
+		
+		
+		for(int i = 0; i <count; i++ ) {
+			if( i > 9 ) {
+				price = 1500;
+				
+			} else {
+				price = 2000;
+			}
+			sum += price;
+		}
+		System.out.println("커피의 개수는"+count+"입니다.");
+		System.out.println("커피의 총 가격은"+sum+"입니다.");
 
 	}
 

@@ -6,7 +6,7 @@ public class IfExample2 {
 
 	public static void main(String[] args) {
 		// 난수 생성 : 임의의 값(random)
-		//1. Math.random() : 0 ~ 1미만의 임의 값을 출력
+		//1. Math.random() : 0 ~ 1 미만의 임의 값을 출력
 		//2. Random을 import : import 명령어는 라이브러리 클래스를 로드
 		// 각 타입별로 난수를 발생시키는 메서드가 Random에 존재함.
 		// 난수를 생성하기 위한 Seed를 지정할 수 있음.

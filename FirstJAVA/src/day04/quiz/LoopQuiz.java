@@ -10,13 +10,16 @@ public class LoopQuiz {
 		// 조건문과 반복문을 사용하려 100 이하의 소수를 출력해 보세요.
 		// (for문 안에 for문)
 		System.out.println("======= Prime Number =======");
-		int cnt;
+		int cnt =0;
+		
 		for (int i =2; i <= 100; i++) {
 			cnt = 0; // 배수여부 확인
+			
 			for(int j=1; j<=i; j++) {
 				if(i%j == 0) {
 					cnt++;
 				}
+				
 			}
 			if(cnt == 2) {
 				System.out.print(i + " ");
@@ -35,6 +38,9 @@ public class LoopQuiz {
 		String str = scan.nextLine();
 		
 		for(int i = str.length(); i>0; i--) { //str.length는 문자열 길이
+			System.out.println();
+			System.out.print("i의 값"+i);
+			System.out.println();
 			System.out.print(str.charAt(i-1));
 		}
 		

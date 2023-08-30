@@ -7,11 +7,11 @@ public class ComperisonExample {
 		int a = 10;
 		int b = 5;
 		
-		System.out.println("a < b 의 결과 : "+(a < b));
-		System.out.println("a <= b 의 결과 : "+(a <= b));
+		System.out.println("a < b 의 결과 : "+(a < b)); 
+		System.out.println("a <= b 의 결과 : "+(a <= b)); 
 		System.out.println("a > b 의 결과 : "+(a > b));
 		System.out.println("a <= b 의 결과 : "+(a <= b));
-		System.out.println("a == b 의 결과 : "+(a == b));
+		System.out.println("a == b 의 결과 : "+(a == b)); 
 		System.out.println("a != b 의 결과 : "+(a != b));
 	}
 
